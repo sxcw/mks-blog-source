@@ -11,6 +11,6 @@ I had been struggling with the twittler project for the past few days. Twittler 
 
 I am not complaining though...I truly enjoy working on this project, and I was surprised that how much I have learned from building this simple app. I plan to rewrite it before day 1 and see if I will be able to write the functions differently and how long it will take me. 
 
-[Project demo](http://sxcw.github.io/MKS-ATX-twittler)
+<a href="http://sxcw.github.io/MKS-ATX-twittler" target="_blank">Project demo</a>
 
 ![Project image](/mks-blog/images/twittler.jpg)

@@ -20,13 +20,13 @@ block main
               ul.tag-box.list-unstyled
                 for category in site.categories.sort('name').toArray()
                   li
-                    a(href='/categories/'+category.name)= category.name
+                    a(href=url_for('/categories/'+category.name))= category.name
                       span= category.posts.length
             .all-tags
               ul.tag-box.list-unstyled
                 for tag in site.tags.sort('name').toArray()
                   li
-                    a(href='/tags/'+tag.name)= tag.name
+                    a(href=url_for('/tags/'+tag.name))= tag.name
                       span= tag.posts.length
 
         .post-archive
@@ -37,6 +37,6 @@ block main
                 for post in posts
                   li
                     span.date= post.date.format('YYYY/MM/DD')
-                    a(href=post.path, title=post.title)
+                    a(href=url_for(post.path), title=post.title)
                       = post.title
   include _partial/paginator.jade

@@ -89,7 +89,7 @@ html
           .footer
             - var year = date(new Date(), 'YYYY');
             = '© ' + year + ' '
-            a(href='/', rel='nofollow')= config.title
+            a(href=url_for('.'), rel='nofollow')= config.title
             = '. Powered by '
             a(rel='nofollow', target='_blank', href='https://hexo.io') Hexo
             = '. Theme '

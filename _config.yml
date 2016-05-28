@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://localhost:4000/
-root: /
+url: http://sxcw.github.io/mks-blog
+root: /mks-blog/
 permalink: :title/
 permalink_defaults:
 
@@ -70,4 +70,4 @@ theme: very-simple
 deploy:
   type: git
   repo: https://github.com/sxcw/mks-blog.git
-  branch: master
+  branch: gh-pages

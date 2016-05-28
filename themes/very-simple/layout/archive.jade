@@ -37,6 +37,6 @@ block main
                 for post in posts
                   li
                     span.date= post.date.format('YYYY/MM/DD')
-                    a(href=url_for(post.path), title=post.title)
+                    a(href=post.path, title=post.title)
                       = post.title
   include _partial/paginator.jade

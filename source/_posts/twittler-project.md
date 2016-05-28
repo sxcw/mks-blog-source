@@ -13,4 +13,4 @@ I am not complaining though...I truly enjoy working on this project, and I was s
 
 [Project demo](http://sxcw.github.io/MKS-ATX-twittler)
 
-![Project image](/images/twittler.jpg)
+![Project image](/mks-blog/images/twittler.jpg)

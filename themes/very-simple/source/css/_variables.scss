@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Droid+Serif|Lobster+Two:700);
+
+// define variables
+
+$font-mono: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+$font-sans: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-serif: 'Droid Serif', Georgia, serif;
+$font-blog-title: "Lobster Two", cursive;
+$font-post-title: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-header: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-content: 'Droid Serif', Georgia, serif;
+
+$font-size-main: 16px;
+$font-size-code: 16px;
+$line-height: 1.6em;
+$line-height-title: 1.1em;
+
+// colors
+$color-background: #f6f6f6;
+$color-border: #e6e6e6;
+$color-link: #f47771;
+$color-near-white: #FAFAFA;
+$color-underscore: #5DB1B4;
+$color-main-link: #368CCB;
+$color-main-link-hover: #f47771;
+$color-font-basic: #565656;
+$color-font-strong: #222222;
+$color-font-soft: #777777;
+$color-font-special: #f47771;
+
+// width height
+$article-padding: 1em;
+$vertical-bar-width: 6px;
+
+
+.clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

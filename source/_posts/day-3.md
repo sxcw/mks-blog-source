@@ -25,9 +25,9 @@ Note #3: The only difference between an object decorator and a class is that a c
 
 Note #4: Prototypal : instead of assigning methods directly to child object, child object inherits from them. 
 
-Note #5: Inherit method: Object.create(parent) // create an empty object and inherit from it. Child doesn't have all properties from parents, there is just a link. Create a link to the parental object, continuous relationship 
+Note #5: `Inherit method: Object.create(parent)` -- create an empty object and inherit from it. Child doesn't have all properties from parents, there is just a link. Create a link to the parental object, continuous relationship 
 
-Note #6: `Object.getPrototypeOf(child) === parent`; To check prototypal relationship: `Object.getPrototypeOf(Array.prototype) === Object.prototype`
+Note #6: `Object.getPrototypeOf(child) === parent` ; To check prototypal relationship: `Object.getPrototypeOf(Array.prototype) === Object.prototype`
 
 Note #7: `console.dir(Array.prototype)`
 
@@ -38,16 +38,16 @@ Note #9: `.prototype` is not a keyword, it's just a property name( good thing is
 Complexity Analysis in the Real World
 -------------------------------------
 
-### Quick Notes ###
+<h3> Quick Notes </h3>
 * Two types: time and space, but we mostly worry about time. 
 * n : input size
-* Example: find out the greatest difference in [10,5,15,50];
+* Example: find out the greatest difference in `[10,5,15,50]`;
 How many operations we need to do ? 
 - n * n (n square), if we take 10 and do 10-5, 10-5, 10-15, 10-50... and take the next number 5, 5-15,5-50..., the number of steps is close to n square. ==> O(n2) 
 - 2n, find the smallest number and biggest number, and result = biggest - smallest ==> O(n)
 - constant (awesome!), if the list is sorted, then result = last item -first item ==> O(1)
 
-### Types ###
+<h3> Types </h3>
 
 * logarithmic algorithm, faster than linear, because each step we eliminate half of the input.
 * constant: O(1)

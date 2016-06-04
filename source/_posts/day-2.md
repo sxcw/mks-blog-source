@@ -59,7 +59,7 @@ var example = obj.inner;
 obj.inner   = undefined;
 
 ```
-Answer: { x : 10 } // todo: click to show
+Answer: { x : 10 } 
 
 * After the following code runs, what will be the value of x.foo?
 
@@ -175,7 +175,7 @@ An expensive operation: in order to accomplish a goal, the computer has to do to
 
 ***Limited Data Structures, including stacks and queues are restricted for good reasons: for example: only interact with the top item. ***
 
-### Stacks (First in last out, like a stack of dinner plates)
+<h3> Stacks (First in last out, like a stack of dinner plates)</h3>
 
 Interface(how you interact with something), also known as API (application programming interface):
 
@@ -204,7 +204,7 @@ var stackPusher = createStackPusher();
 stackPusher(10);  //can only do push 
 ```
 
-### Queues (First in first out, a line for a popular restaurant)
+<h3> Queues (First in first out, a line for a popular restaurant)</h3>
 
 Interface:
 - enqueue: put an item into the queue
@@ -242,6 +242,4 @@ Quick notes on Hoisting
 
 Variable hoisting: JS moves variables up. 
 Function hoisting: entire function statements get hoisted, get moved to the top.
-
-
 

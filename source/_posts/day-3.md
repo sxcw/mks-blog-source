@@ -1,14 +1,11 @@
 ---
-title: Day 3 is the first sprint
+title: Day 3 is Better than Yesterday
 tags: 
 - during-bootcamp
 - complexity-analysis
 comments: true
 date: 2016-06-02
 ---
-
-Better than Yesterday
----------------------
 
 After a good night's sleep, day 3 is going to be better! I will have the first pair programming this morning on stacks and queues. Several lectures today will focus on object creation and code reuse. Looking forward to those lectures! 
 

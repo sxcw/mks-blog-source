@@ -1,5 +1,5 @@
 ---
-title: Day 4 is Seniors Project Presentation
+title: Day 4 Pair Programming Feedback
 tags: 
 - during-bootcamp
 - object-creation
@@ -7,9 +7,6 @@ tags:
 comments: true
 date: 2016-06-03
 ---
-
-First Pair Programming Feedback
----------------------
 
 So I had my first pair programming at MKS yesterday. It was quite an experience! Yes, there were struggles, frustration, fear of not being able to finish the sprint in time... but there were also so many wonderful moments -- joy of problem solving, debugging, helping out each other. Seeing my code passing all the tests made those negative moments insignificant. 
 

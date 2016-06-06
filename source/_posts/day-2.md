@@ -9,9 +9,6 @@ comments: true
 date: 2016-06-01
 ---
 
-Sleepless Night
----------------
-
 Excitement and uncertainty contributed to a sleepless night. I was in bed 11:30pm last night and stayed wide awake till 3:30-ish. My body is still adjusting to the new hectic intense schedule. It senses changes and put itself into the survival mode.  I don't blame it and I know I have to take it easy and be patient. I will help my body go through this transition as painless as possible. 
 
 Regardless of a restless night, I am still very excited to have my first pair programming session today. It will be fun, inspiring, and challenging. It will take my learning experience to a whole different level. Learning in a social context can be powerful and I am going to see the power today.  

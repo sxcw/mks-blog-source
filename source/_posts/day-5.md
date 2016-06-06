@@ -7,9 +7,6 @@ comments: true
 date: 2016-06-04
 ---
 
- First Weekend is Coming 
----------------------
-
 Today marks the first weekend at MKS.  I almost make it through the first week! 
 
 Arrays and Linked Lists

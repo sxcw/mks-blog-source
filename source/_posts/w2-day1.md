@@ -11,7 +11,7 @@ Never fully understood the importance of Sunday until now... After an incredibly
 
 Scopes, Closures, Modules Intro
 -----------------------
-* `var` creates a local variable; no `var` changes variables
+* `var` creates a local variable; no `var` --> changes variables
 * `module`: is used to return an interface with hidden data
 *  return a function, so we can return multiple objects that represent API, advantage: we can keep local variables, without polluting global namespace. 
 * The module pattern is when you enclose a set of data and functionality in an outer scope that returns a "public API" for using the internal stuff.
@@ -59,10 +59,12 @@ foo.bar();
 ```
 
 * Browsify --> get rid of global scope. In-browser JS has a global scope; in Node.js, every file has its own scope. 
-* The word "lexical" is related to the compiler, the tool which processes your source JS code into a set of binary commands that the engine can execute. Compilation is the first phase of running a JS program, and interpretation (aka, execution) is the second phase. 
+
 
 Lexical Scope, Nested Scope, Block Scope:
 ---------------
+Below is my study notes, read more at <a href="https://github.com/getify/You-Dont-Know-JS" target="_blank">You Don't Know JS</a>.
+
 * Lexical scope is set when the function is created
 * Lexical scope rules are determined statically at compile-time. Anything that happens after compilation, during execution, is dynamic at run-time. This distinction is important because it helps us understand the difference between normal variables, which behave lexically, and the this binding, which behaves dynamically.
 * Declarations come in two forms: variable declarations and function declarations. The compiler will look for any of these declarations, and wherever it finds them, it will register them into the appropriate scopes.
@@ -210,5 +212,20 @@ console.log(foo.obj.bar);
 Answer: no, by definition, this is object reference, but there is no function keeping a reference to its scope
 
 
+this
+______
 
+* If strict mode is in effect, the global object is not eligible for the default binding, so the this is instead set to undefined.
+
+```
+function foo() {
+    "use strict";
+
+    console.log( this.a );
+}
+
+var a = 2;
+
+foo(); // TypeError: `this` is `undefined`
+```
 

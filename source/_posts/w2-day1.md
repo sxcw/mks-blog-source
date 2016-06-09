@@ -2,7 +2,9 @@
 title: Day 6 is the beginning of second week
 tags: 
 - during-bootcamp
-- modules
+- module
+- closure
+- scope
 comments: true
 date: 2016-06-06
 ---
@@ -70,9 +72,9 @@ Below is my study notes, read more at <a href="https://github.com/getify/You-Don
 * Declarations come in two forms: variable declarations and function declarations. The compiler will look for any of these declarations, and wherever it finds them, it will register them into the appropriate scopes.
 * A commonly used term "hoisting" refers to the process of finding declarations and assigning them to their owning scopes. Hoisting isn't real, it's just a metaphor for understanding the compiler and scopes. Hoisting describes moving (aka "hoisting") all declarations to the top of their respective scopes. 
 * The compiler handles all declarations before our code is executed. Hoisting is done in the compilation phase
-* `var a = 2;`: Compiler declares a variable (if not previously declared in the current scope), and second, when executing, Engine looks up the variable in Scope and assigns to it, if found.
+* `var a = 2` : Compiler declares a variable (if not previously declared in the current scope), and second, when executing, Engine looks up the variable in Scope and assigns to it, if found.
 *  LHS and RHS meaning "left/right-hand side of an assignment" doesn't necessarily literally mean "left/right side of the = assignment operator". There are several other ways that assignments happen, and so it's better to conceptually think about it as: "who's the target of the assignment (LHS)" and "who's the source of the assignment (RHS)".
-* Unfulfilled RHS references result in ReferenceErrors being thrown. Unfulfilled LHS references result in an automatic, implicitly-created global of that name (if not in "Strict Mode" [^note-strictmode]), or a ReferenceError (if in "Strict Mode" [^note-strictmode]).
+* Unfulfilled RHS references result in ReferenceErrors being thrown. Unfulfilled LHS references result in an automatic, implicitly-created global of that name, or a ReferenceError.
 
 ```
 function foo(a) {
@@ -101,7 +103,7 @@ function baz(foo) {
 ```
 
 * Compilation phase: register all variables in their own scopes 
-* In non-strict mode, `reference error` results in unfulfilled or undeclared `RHS` reference 
+* In non-strict mode, reference error results in unfulfilled or undeclared RHS reference 
 
 IIFE
 -------------
@@ -213,7 +215,7 @@ Answer: no, by definition, this is object reference, but there is no function ke
 
 
 this
-______
+------
 
 * If strict mode is in effect, the global object is not eligible for the default binding, so the this is instead set to undefined.
 

@@ -1,8 +1,8 @@
 ---
-title: Day 7 is some self-studying and pair programming
+title: Day 7 is Functional Programming
 tags: 
 - during-bootcamp
-- pair-programming
+- functional-programming
 comments: true
 date: 2016-06-07
 ---
@@ -13,8 +13,9 @@ Self-Studying Notes:
 -----------------------
 * A constructor makes an object 'linked to' its own prototype
 * The word `.constructor` is an arbitrary word, it doesn't mean what it was constructed by. 
-* Dunder proto  --> __proto__  `a1.__proto__ === Object.getPrototypeOf(a1);
-* [[prototype]] is a linkage between one object to another. We can get that linkage from `Object.create` or using `new`. [[prototype]]: gives us the ability to walk up the prototype chains, delegating failed lookups.
+* ` __proto__` is pronounced as  Dunder proto
+* `a1.__proto__ === Object.getPrototypeOf(a1)`
+* `[[prototype]]` is a linkage between one object to another. We can get that linkage from `Object.create` or using `new`. `[[prototype]]` : gives us the ability to walk up the prototype chains, delegating failed lookups.
 
 Callback, Functional Programming
 -------------------------------

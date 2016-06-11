@@ -23,5 +23,3 @@ Self-Studying Notes:
 * Instead of passing a callback to utility (it will finish later) --> inversion of control, we can add event listeners on some functions that will finish later. We just listen to the completion of events. When function finishes, we will get notified by the event listener. We are in control now.
 * Rather than passing the callbacks in, how about having API that returns the event listeners to us?
 * Promises restore trust: 1) only resolved once, 2) either success or error, 3) messages passed/kept 4) exceptions become errors, 5) immutable once resolved. It is a callback manager. A pattern of managing callbacks in a trust-able fashion.
-
-

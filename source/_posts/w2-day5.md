@@ -1,5 +1,5 @@
 ---
-title: Day 9 is in the Middle of a Long Sprint
+title: Day 10 is in the Middle of a Long Sprint
 tags: 
 - during-bootcamp
 comments: true

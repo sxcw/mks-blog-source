@@ -3,7 +3,7 @@ title: Day 10 is in the Middle of a Long Sprint
 tags: 
 - during-bootcamp
 comments: true
-date: 2016-06-09
+date: 2016-06-10
 ---
 
 For this sprint, I am going to implement a reminder web app.  It will have the following functionalities: login, a dashboard where users can add, update, delete reminders. Users can also filter their reminders.

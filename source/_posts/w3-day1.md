@@ -13,9 +13,8 @@ This week I will delve deeper into MVC by making 3 web apps, using Backbone or M
 
 HTTP
 --------------
-Client: sends a request to server 
 
-<h3> Request </h3>
+<h3> Request -- Client: sends a request to server </h3>
 
 * Endpoint: overall address that we request, method + url (Method includes `get` , `post` , `put/patch`(update data) ,`delete` ; url can be `/comments` , `users/5` , `/` --> root)
 * Headers: see notes
@@ -33,15 +32,15 @@ Note #7: url can have Query parameters  --> `/users/5?order=ASC&name=Alice`
 Note #8: `curl`: make an http request from the terminal
 
 
-Server: sends back a response
-<h3> Response </h3>
+
+<h3> Response -- Server: sends back a response </h3>
 
 * Status code: 200 great, 500 something broke on the server side, 400 client side broken
 * Headers: key-value pairs, most important --> `content-type` : `text/html` ( server knows how to interpret the data)
 * Body: the html text (the meat the server gives back)
 
 
-Other
+Other Study Notes
 --------------
 API: interface is a description of how you can interact with something 
 * Code API: how we interact with code (array API: .push,.pop, .slice)

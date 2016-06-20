@@ -1,5 +1,5 @@
 ---
-title: Day 13 
+title: Day 13 introduces MVC
 tags: 
 - during-bootcamp
 - MVC

@@ -1,5 +1,5 @@
 ---
-title: Day 12 
+title: Day 12 talks about HTTP
 tags: 
 - during-bootcamp
 - HTTP

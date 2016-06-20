@@ -1,5 +1,5 @@
 ---
-title: Day 14 
+title: Day 14 is the beginning of Mithril
 tags: 
 - during-bootcamp
 - Mithril
@@ -61,8 +61,9 @@ Note #1: every time we create an ID, we create a global variable
 Note #2: Backbone and Angular don't have virtual DOM
 Note #3: Every file gets its own scope. Browsify(make stuff work like node.js), `require` is part of Browsify
 
+
 Promises
-___________
+-------------
 
 * a Promise object always hold a future value, we send the request to serve, wait the value comes back, and we fill the promise with a value and then we can access it. 
 * `.then` --> when it is finally filled up, it runs that funcion with that returned value
@@ -74,12 +75,3 @@ ___________
 * resolve -- go down the happy path (`.then`); reject: go down the sad path (`.catch`)
 * If we deal with the `.catch`, then it might go back to happy path. We can also return values from `.catch`
 * `throw new Error ()` --> code stops running (like return)
-
-
-
-
-
-
-
-
-

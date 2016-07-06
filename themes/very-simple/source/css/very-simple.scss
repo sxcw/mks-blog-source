@@ -456,9 +456,8 @@ $post-time-space: 1em;
     text-align: center;
     border-bottom: 2px solid #CCC;
     color: #777;
-    @media only screen and (max-width: $break-level-3) {
-        border-top: 2px solid #CCC;
-    }
+    border-top: 2px solid #CCC;
+
 
     * {
         padding: 1px 20px;

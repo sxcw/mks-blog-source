@@ -10,7 +10,8 @@ date: 2016-06-18
 After some struggles with React yesterday, I went back to re-watch some of the codeSchool videos and a few concepts finally clicked now. 
 
 
-<h3>Lecture Notes</h3>
+Lecture Notes 
+-------------------
 
 * React is the 'view' in MVC
 * `fetch` returns a promise: future standard (eventually will be built into the broswer), had a polyfill (a lirary we can download and use)

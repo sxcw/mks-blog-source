@@ -7,16 +7,18 @@ comments: true
 date: 2016-06-24
 ---
 
+Journey to SQL begins!
+
+
 Notes
 -------------------
 
 * Relational (SQL) database: A collection of tables
-* Table: A collection of rows(records)
+* Table: A collection of rows (records)
 * Table Schema: A strict set of rules for table column types, sizes, etc.
-(I want this columns to be numbers, so later we cannot put strings there)
 * SQL columns can only have: numbers, strings, dates
 * RDB is stricter form of spreadsheet, can not freely move things around
-* a row is like a js object(or a hash table)
+* a row is like a js object (or a hash table)
 * Always have ID so we can direcly reference that row
 
 <h3> One-to-many relationship</h3>
@@ -26,7 +28,7 @@ Notes
 <h3> Many-to-many relationship</h3>
 * A student has many cohorts (as student or fellow)
 * A cohort has many students 
-* 'Join table'
+* 'Joint table'
 * Normalize: Don't duplicate any data, so we only need to change data at one spot, not multiple places. <--> 'Denormalized' is good for caching, good for performance 
 * polymorphic associations
 

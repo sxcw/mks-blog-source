@@ -1,5 +1,5 @@
 ---
-title: Day 25   
+title: Day 25 is Express  
 tags: 
 - during-bootcamp
 - sessionID
@@ -12,7 +12,7 @@ After the express sprint, I have better understanding of how to build a login bo
 
 Notes
 -------------------
-* bubble sort: quadratic at worst, linear at best 
+* Time complexity for bubble sort: quadratic at worst, linear at best 
 * `truncate()`: remove all rows, remove all data from the table
 * `err && reject(err) || resolve(res)`
 * A session gives the user the convenience of to signing in once (as opposed to providing their username/password on every request).

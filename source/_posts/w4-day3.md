@@ -1,5 +1,5 @@
 ---
-title: Day 20 and Exhaustion Hit Me 
+title: Day 20 and Exhaustion Hits Me 
 tags: 
 - during-bootcamp
 comments: true
@@ -13,7 +13,7 @@ Notes
 
 * Process: is like a living organism. My CPU is shared among all the processes
 * Client -> [request] -> Server
-* Routing (handling differnet endpoints)
+* Routing (handling different endpoints)
 * background job: a process that doesn't have a user interface (process with no UI). No user input is needed.
 * Daemon: A program designed to run in the background
 *  Cron: Process scheduler. Cron job: this program scheduled to run every so often

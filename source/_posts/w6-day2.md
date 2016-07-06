@@ -1,5 +1,5 @@
 ---
-title: Day 30   
+title: Day 30 is Mini App Day
 tags: 
 - during-bootcamp
 - mini-app

@@ -2,7 +2,7 @@
 title: Day 31   
 tags: 
 - during-bootcamp
-- React
+- mini-app
 comments: true
 date: 2016-07-06
 ---

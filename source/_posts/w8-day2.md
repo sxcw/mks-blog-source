@@ -8,13 +8,6 @@ date: 2016-07-19
 
 Greenfield project is over, and then we are handing it to other groups.  My group is interested in picking a paper scissors stone game project as the legacy project.  We will be adding features to that project for the rest of week. 
 
-CheckList
------------
-
-[Complete] Do 2 toy problems a day, one from senior challenge and one from junior challenge(for review).  
-[Complete] Think about this journey as a marathon, not a short sprint. It's ok if I cannot get it the first time... just keep pushing.
-[Complete] Nice-to-have: Write better blog posts, document what I learn every day.
-
 
 Update Node Today! 
 -----------

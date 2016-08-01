@@ -1,31 +1,31 @@
 ---
-title: Day 40 is Finishing up Resume!
+title: Day 40 is Software Development Methodology!
 tags: 
 - during-bootcamp
-- resume
+- methodology
 comments: true
 date: 2016-07-25
 ---
 
+Software Development Methodology: How do we develop things?
 
+<h4> Waterfall (traditional): </h4>
+* Going downstream, hand project to the next person
+* cost of change is too high, resistant to change 
+* deliver nothing until you deliver it all
+* process: discover --> design --> develop --> test
 
-CheckList
------------
+<h4> Agile: </h4>
+* doing the same type of process but shorter time frame, iterative
+* deliver values quickly
+* constantly collect feedback
 
-[Not Yet] Do 2 toy problems a day, one from senior challenge and one from junior challenge(for review).  
-[Complete] Think about this journey as a marathon, not a short sprint. It's ok if I cannot get it the first time... just keep pushing.
-[Complete] Nice-to-have: Write better blog posts, document what I learn every day.
+<h4> Daily 15-min standup: </h4>
+* What did I do? 
+* What I am doing today? 
+* Do I have any blocker? (lack of understanding)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<h4> Sprint retrospective meeting: </h4>
+* Going well 
+* Going bad
+* Not sure

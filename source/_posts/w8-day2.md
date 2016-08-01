@@ -39,6 +39,3 @@ nvm ls-remote
 // install node version 6.3.0 (latest at this moment)
 nvm install 6.3.0
 ```
-
-
-

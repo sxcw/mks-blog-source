@@ -13,9 +13,9 @@ Today is the first day of thesis project, which is going to span over 4 weeks.  
 Idea Formation 
 -----------
 
-We spent hours brainstorimg ideas and finally decided on doing 'Pulse' (name is subject to change). 'Pulse' is a web app that enables people to set up or search for last-minute events.  Some of the use cases would be: I am looking for a person to play tennis with me later this afternoon, or I want to check if there are any events around me the next 20 minutes.  
+We spent hours brainstorming ideas and finally decided on doing 'Pulse' (name is subject to change). 'Pulse' is a web app that enables people to set up or search for last-minute events.  Some of the use cases would be: I am looking for a person to play tennis with me later this afternoon, or I want to check if there are any events around me the next 20 minutes.  
 
-Ok, more details on Pulse:
+Okay, user backlog on Pulse:
 
 **Users:**  People who want to set up event or go to events
 **Vision:** To quickly find and set up dynamic events near you. Finding a group of people for a last minute activity can be very hard, and this is the problem the app is going to solve.

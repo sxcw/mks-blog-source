@@ -1,5 +1,5 @@
 ---
-title: Day 38 and Redux!
+title: Day 39 and Redux!
 tags: 
 - during-bootcamp
 - redux

@@ -1,5 +1,5 @@
 ---
-title: Day 42 is Setting Up Rules
+title: Day 43 is Setting Up Rules
 tags: 
 - during-bootcamp
 - thesis

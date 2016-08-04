@@ -1,5 +1,5 @@
 ---
-title: Day 41 is Thesis Kickoff!
+title: Day 42 is Thesis Kickoff!
 tags: 
 - during-bootcamp
 - thesis

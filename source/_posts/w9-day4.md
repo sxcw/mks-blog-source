@@ -1,5 +1,5 @@
 ---
-title: Day 43 is Postgres Postgres and Postgres
+title: Day 44 is Postgres Postgres and Postgres
 tags: 
 - during-bootcamp
 - thesis

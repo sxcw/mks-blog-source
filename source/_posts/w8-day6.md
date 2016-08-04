@@ -1,5 +1,5 @@
 ---
-title: Day 39 is Resume Day!
+title: Day 40 is Resume Day!
 tags: 
 - during-bootcamp
 - resume

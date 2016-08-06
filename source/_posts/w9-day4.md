@@ -8,7 +8,7 @@ comments: true
 date: 2016-07-28
 ---
 
-I fought with postgres for the entire morning today and finally fixed the problem by hours of googling and stack overflowling. 
+I fought with postgres for the entire morning today and finally fixed the problem by hours of googling and stack overflowing. 
 
 Problem
 -----------

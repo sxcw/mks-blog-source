@@ -13,7 +13,7 @@ Our team nailed down what we want to accomplish for the MVP.  The app should hav
 * event detail view
 * create event form, and this is what I will be working on!
 
-![MVP whiteboarding](/mks-blog/images/mvp.jpg)
+![MVP white boarding](/mks-blog/images/mvp.jpg)
 
 
 

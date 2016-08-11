@@ -69,7 +69,7 @@ createdb YOUR_DATABASE_NAME
 
 ```
 // drop database
-dropbox YOUR_DATABASE_NAME
+dropdb YOUR_DATABASE_NAME
 ```
 
 ```
